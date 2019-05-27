@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="style_values">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Mapbox Streets</item>
+        <item>Outdoors</item>
+        <item>Satellite Streets</item>
+        <item>Traffic Day</item>
+        <item>Traffic night</item>
+    </string-array>
+
+    <string-array name="route_options">
+        <item>Driving</item>
+        <item>Cycling</item>
+        <item>Running</item>
+    </string-array>
+</resources>

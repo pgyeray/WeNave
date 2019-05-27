@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeNave</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="hello_blank_fragment">Hola fragmento vacío</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_send">Enviar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_slideshow">Diapositivas</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="nav_create_route">Crear ruta</string>
+    <string name="nav_my_routes">Mis rutas</string>
+    <string name="cardview_rain">Lluvia</string>
+    <string name="cardview_humidity">Humedad</string>
+    <string name="dialog_add_route">Escribe el nombre de la ruta...</string>
+    <string name="dialog_button_add">Añadir</string>
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="cardview_creation_date">Fecha de creación</string>
+    <string name="cardview_start">Inicio de la ruta</string>
+    <string name="cardview_end">Final de la ruta</string>
+    <string name="info_routes_title_forecast">Información meteorológica</string>
+    <string name="normal_mode_hint">Modo normal</string>
+    <string name="location_mode_hint">Modo localización</string>
+    <string name="circuit_mode_hint">Modo circuito</string>
+    <string name="nav_routes">Rutas</string>
+    <string name="nav_settings">Preferencias</string>
+    <string name="settings_about">Acerca de la app</string>
+    <string name="settings_darksky">Climatologia provista por Dark Sky</string>
+    <string name="settings_mapbox">Mapas provistos por Mapbox</string>
+    <string name="settings_flaticon">Iconos de los modos de rutas provistos por Flat Icon</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#101010</color>
+    <color name="colorAccent">#484848</color>
+
+    <color name="buttons_background">#FFFFFF</color>
+
+    <color name="deselected_cardview">#FFFFFF</color>
+    <color name="selected_cardview">#FFFFE0</color>
+
+    <color name="mapboxWhite">#FFFFFF</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+    <color name="mapboxPink">#ee4e8b</color>
+    <color name="mapboxYellow">#d9d838</color>
+    <color name="mapboxRed">#b43b71</color>
+
+
+</resources>

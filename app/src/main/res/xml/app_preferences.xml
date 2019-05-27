@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="visible">
+
+    <PreferenceCategory android:title="General settings">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_refresh_data"
+            android:title="Auto-Refresh Data" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/route_options"
+            android:entryValues="@array/route_options"
+            android:key="route_options"
+            android:title="Route options"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Customization">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/style_values"
+            android:entryValues="@array/style_values"
+            android:key="style_list"
+            android:title="Map Style"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_about">
+        <Preference
+            android:selectable="false"
+            android:enabled="true"
+            android:key="mapbox"
+            android:title="@string/settings_mapbox"
+            android:summary="https://www.mapbox.com/" />
+        <Preference
+            android:selectable="false"
+            android:enabled="true"
+            android:key="darksky"
+            android:title="@string/settings_darksky"
+            android:summary="https://darksky.net" />
+        <Preference
+            android:selectable="false"
+            android:enabled="true"
+            android:key="flaticon"
+            android:title="@string/settings_flaticon"
+            android:summary="https://www.flaticon.com/" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
